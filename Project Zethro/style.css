@@ -227,14 +227,29 @@ img {vertical-align: middle;}
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: gray;
     color: white;
   }
   
-  .modal-body {padding: 2px 16px;}
+  .modal-body {
+    padding: 2px 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: gray;
     color: white;
+  }
+
+  .modal-trigger{
+    cursor:pointer;
+  }
+
+  .kontenmodal{
+    margin-left: 20px; 
+    text-align: justify; 
+    margin-right: 20px
   }
