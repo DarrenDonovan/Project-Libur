@@ -114,6 +114,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
   left: 200px;
+  overflow: hidden;
 }
 
 /* Caption text */
@@ -154,13 +155,14 @@ img {vertical-align: middle;}
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
+  animation-name: slide;
   animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@keyframes slide {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-100%);}
 }
 
 /* On smaller screens, decrease text size */
