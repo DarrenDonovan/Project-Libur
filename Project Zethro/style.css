@@ -71,14 +71,23 @@ footer {
 .ig{
     width: 50px;
     margin-left: 10px;
+    transition: transform 0.3s ease;
 }
 
 .wa{
     width: 70px;
+    transition: transform 0.3s ease;
 }
 
 .fb{
     width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.ig:hover,
+.wa:hover,
+.fb:hover{
+  transform: scale(1.2);
 }
 
 .ordernow{
@@ -259,4 +268,22 @@ img {vertical-align: middle;}
     margin-left: 20px; 
     text-align: justify; 
     margin-right: 20px
+  }
+
+  .image-container{
+    margin-top: 20px;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .image-container img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+  }
+
+  .image-container:hover img{
+    transform: scale(1.2);
   }
