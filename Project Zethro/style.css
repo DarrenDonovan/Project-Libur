@@ -1,6 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+  font-family: 'Poppins';
 }
 
 .container {
@@ -8,18 +13,21 @@ body {
     overflow: hidden;
 }
 
+@font-face {
+  font-family: 'Playlist';
+  src: url(fonts/Playlist\ Script.otf);
+}
+
 .navbars {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed;
     width: 100%;
     padding: 20px;
     background-color: #85B89B;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 110px;
+    z-index: 2;
 }
 
 .navbars h3 {
@@ -29,6 +37,8 @@ body {
 .navbar-links a {
     margin-right: 10px;
     text-decoration: none;
+    color: white;
+    margin-left: 20px;
 }
 
 .imageku {
@@ -39,10 +49,8 @@ body {
     object-fit: cover;
 }
 
-footer {
-    border: 1px solid red;
-    margin-top: 100px;
-    height: 100px;
+.logo{
+  width: 15%;
 }
 
 .order {
@@ -56,7 +64,13 @@ footer {
     margin: 0 auto; /* Center align the aboutcontent div */
     padding: 20px; /* Added padding for spacing */
     box-sizing: border-box; /* Include padding in the width calculation */
-    margin-top: 20px;
+    margin-top: 120px;
+}
+
+.aboutcontent h2{
+  text-align: center;
+  font-family: 'Playlist', sans-serif;
+  font-size:xx-large;
 }
 
 .aboutcontent h3 {
@@ -102,6 +116,10 @@ footer {
   margin: 30px;
 }
 
+.homecontent{
+  margin-top: 130px;
+}
+
 .Testimoni h2{
 text-align: center;
 margin-top: 100px;
@@ -128,6 +146,7 @@ img {vertical-align: middle;}
   margin: auto;
   left: 200px;
   overflow: hidden;
+  z-index: -1;
 }
 
 /* Caption text */
@@ -188,7 +207,7 @@ img {vertical-align: middle;}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 3; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -242,7 +261,7 @@ img {vertical-align: middle;}
   
   .modal-header {
     padding: 2px 16px;
-    background-color: gray;
+    background-color: #85B89B;
     color: white;
   }
   
@@ -274,6 +293,8 @@ img {vertical-align: middle;}
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
   }
 
   .image-container img{
@@ -281,8 +302,49 @@ img {vertical-align: middle;}
     height: auto;
     transition: transform 0.3s ease;
     transform: scale(1);
+    position: relative;
   }
 
   .image-container:hover img{
     transform: scale(1.2);
+  }
+
+  .image-container:hover{
+    pointer-events: auto;
+  }
+
+  .product{
+    margin-top: 130px;
+  }
+
+  .footer{
+    background-color: #85B89B;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer img{
+    margin: 10px;
+    width: 25%;
+    margin-left: auto;
+  }
+
+  .contact h3{
+    color: white;
+    text-align: right;
+    margin-right: 60px;
+  }
+
+  .contact .ig{
+    width: 5%;
+  }
+
+  .contact .wa{
+    width: 8%;
+  }
+
+  .contact .fb{
+    width: 5%;
   }
