@@ -13,14 +13,14 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 95%;
+    width: 100%;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: #85B89B;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
     height: 60px;
+    margin-bottom: 50px;
 }
 
 .navbars h3 {
@@ -170,7 +170,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: slide;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
