@@ -104,7 +104,7 @@ body {
 }
 
 .ordernow{
-    width: 90%;
+    width: 30%;
     align-items: center;
     text-align: center;
     margin-left: auto;
@@ -118,6 +118,7 @@ body {
 
 .homecontent{
   margin-top: 130px;
+  padding-bottom: 10px;
 }
 
 .Testimoni h2{
@@ -130,7 +131,11 @@ margin-top: 100px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.highlight{
+  margin-top: 80px;
 }
 
 /* Carousel CSS */
