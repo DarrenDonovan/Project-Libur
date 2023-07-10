@@ -40,7 +40,14 @@ body {
     text-decoration: none;
     color: white;
     margin-left: 20px;
+    font-size: 18px;
+    padding-bottom: 4px;
 }
+
+.navbar-links a:hover{
+  color: #ffdb9c;
+}
+
 
 .imageku {
     width: 100%;
@@ -60,12 +67,11 @@ body {
 }
 
 .aboutcontent {
-    background-color: whitesmoke;
     width: 70%;
     margin: 0 auto; /* Center align the aboutcontent div */
     padding: 20px; /* Added padding for spacing */
     box-sizing: border-box; /* Include padding in the width calculation */
-    margin-top: 120px;
+    margin-top: 140px;
 }
 
 .aboutcontent h2{
@@ -115,6 +121,14 @@ body {
 .hometable{
     width: 100%;
   margin: 30px;
+}
+
+.hometable p, td{
+  text-align: center;
+}
+
+.hometable td{
+  width: 50%;
 }
 
 .homecontent{
