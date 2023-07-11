@@ -6,7 +6,7 @@ body {
 }
 
 *{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -80,7 +80,7 @@ body {
   font-size:xx-large;
 }
 
-.aboutcontent h3 {
+.aboutcontent h1 {
     text-align: center;
 }
 
@@ -132,13 +132,14 @@ body {
 }
 
 .homecontent{
-  margin-top: 140px;
+  margin-top: 150px;
   padding-bottom: 10px;
 }
 
 .Testimoni h2{
 text-align: center;
 margin-top: 100px;
+font-family: 'Poppins', sans-serif;
 }
 
 .testikonten{
@@ -151,6 +152,15 @@ margin-top: 100px;
 
 .highlight{
   margin-top: 80px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.highlight h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+.order h2{
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Carousel CSS */
